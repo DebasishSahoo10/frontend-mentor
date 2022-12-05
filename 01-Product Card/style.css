@@ -12,11 +12,9 @@ body {
 
 .card {
     display: flex;
-    /* align-items: center; */
     background-color: hsl(0, 0%, 100%);
     max-width: 35vw;
     max-height: 50vh;
-    /* gap: 30px; */
     border-radius: 0.5rem;
 }
 
@@ -89,4 +87,37 @@ body {
     background-color: hsl(158, 36%, 37%);
     border-radius: 0.5rem;
     border: 0ch;
+}
+
+@media screen and (max-width:375px) {
+    body {
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        margin: auto;
+    }
+    .card {
+        flex-direction: column;
+        max-width: 95vw;
+        max-height: inherit;
+    }
+
+    #desktop-image {
+        display: none;
+    }
+
+    #mobile-image {
+        display: block;
+        width: 95vw;
+        border-radius: 0.5rem 0.5rem 0rem 0rem;
+    }
+
+    .card-details {
+        width: inherit;
+        gap: 20px;
+    }
+
+    .card-prdouct-tittle {
+        width: 95%;
+    }
 }
