@@ -89,6 +89,15 @@ body {
     border: 0ch;
 }
 
+.sr-only {
+    position: absolute;
+    left: -1000px;
+    overflow: hidden;
+    top:auto;
+    width: 1px;
+    height: 1px;
+}
+
 @media screen and (max-width:375px) {
     body {
         align-items: center;
