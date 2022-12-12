@@ -99,3 +99,12 @@ body {
     color: var(--desaturated-blue);
     margin-bottom: 10px;
 }
+
+.card-pricing a:hover {
+    text-decoration: none;
+    color: var(--desaturated-blue);
+}
+
+.payment-btn:hover {
+    background-color: var(--desaturated-blue);
+}
