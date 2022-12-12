@@ -10,7 +10,7 @@ Users should be able to:
 
 ## Links
 
-- Live Site URL: [Add live site URL here](https://frontend-mentor-uowc.vercel.app/)
+- Live Site URL: [Click Here](https://frontend-mentor-uowc.vercel.app/)
 
 ## Built with
 
@@ -21,4 +21,6 @@ Users should be able to:
 
 ## What I learned
 
-- Use this section to recap over some of your major learnings while working through this project.
+- Responsiveness for smaller screens of foldable viewports
+- Background Image and related CSS properties
+- Hover state property 

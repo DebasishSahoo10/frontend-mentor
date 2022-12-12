@@ -10,7 +10,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ## Links
 
-- Live Site URL: [Add live site URL here](https://frontend-mentor-rosy.vercel.app/)
+- Live Site URL: [Click Here](https://frontend-mentor-rosy.vercel.app/)
 
 ## My process
 
