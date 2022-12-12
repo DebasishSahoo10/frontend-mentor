@@ -8,6 +8,10 @@ This is a solution to the [Product preview card component challenge on Frontend 
 - Users should be able to view the optimal layout depending on their device's screen size
 - Align items properly as required
 
+## Links
+
+- Live Site URL: [Add live site URL here](https://frontend-mentor-rosy.vercel.app/)
+
 ## My process
 
 - Semantic HTML5 markup
