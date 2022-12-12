@@ -1,9 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
 
-
+:root {
+    --desaturated-blue: hsl(224, 23%, 55%);
+    --bright-blue: hsl(245, 75%, 52%);
+    --pale-blue: hsl(225, 100%, 94%);
+    --very-pale-blue: hsl(225, 100%, 98%);
+    --dark-blue: hsl(223, 47%, 23%);
+}
 
 body {
+    height: 100vh;
+    font-family: 'Red Hat Display', sans-serif;
     background-image: url(/02\ -\ card\ component/images/pattern-background-desktop.svg);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
-    background-color: hsl(225, 100%, 94%);
+    background-color: var(--pale-blue);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    align-items: center;
+    background-color: white;
+    padding-bottom: 20px;
+    border-radius: 15px;
+}
+
+.card-hero {
+    width: 400px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.card-desc {
+    max-width: 320px;
+    text-align: center;
+    font-size: 16px;
+    color: var(--desaturated-blue);
+}
+
+.card-header {
+    font-weight: 900;
+    font-size: 30px;
+    color: var(--dark-blue);
+}
+
+.card-pricing {
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.card-pricing-left {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    color: var(--desaturated-blue);
+}
+
+.card-pricing-header {
+    font-weight: 700;
+    color: var(--dark-blue);
+}
+
+.card-pricing a {
+    color: var(--bright-blue);
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.payment-btn {
+    font-family: 'Red Hat Display', sans-serif;
+    color: white;
+    background-color: var(--bright-blue);
+    font-weight: 700;
+    font-size: 16px;
+    width: 320px;
+    border: 0px;
+    border-radius: 8px;
+    padding: 12px 0px 12px 0px;
+    margin-top: 20px;
+}
+
+.cancel-btn {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: transparent;
+    border: 0px;
+    color: var(--desaturated-blue);
+    margin-bottom: 10px;
 }
