@@ -8,7 +8,7 @@ Users should be able to:
 
 - See hover states for interactive elements
 
-### Links
+## Links
 
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
@@ -19,6 +19,6 @@ Users should be able to:
 - Flexbox
 - Hover state
 
-### What I learned
+## What I learned
 
 Use this section to recap over some of your major learnings while working through this project.
