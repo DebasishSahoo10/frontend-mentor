@@ -58,3 +58,27 @@ body {
     color: var(--grayish-blue);
 }
 
+@media screen and (max-width:300px) {
+
+    body {
+        height: 100vh;
+        width: 100vw;
+    }
+    .qr-container {
+        max-width: 80vw;
+    }
+    .qr-card {
+        max-width: 75vw;
+    }
+    .qr-card img {
+        max-width: 75vw;
+    }
+    .qr-card h1 {
+        font-size: 15px;
+    }
+    .qr-card p {
+        font-size: 12px;
+    }
+    
+}
+
