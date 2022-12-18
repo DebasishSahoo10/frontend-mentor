@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root {
+    --dark-cyan: hsl(185, 75%, 39%);
+    --very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --dark-grayish-blue: hsl(227, 10%, 46%);
+    --dark-gray: hsl(0, 0%, 59%);
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-color: var(--dark-cyan);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-position: -300px -400px, 50vw 40vh;
+    background-repeat: no-repeat;
+    /* background-size: 400px 400px; */
+    background-clip: padding-box;
+    font-family: 'Kumbh Sans', sans-serif;
+    margin: 0;
+}
+
+.card-container {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.card-pattern {
+    border-radius: 10px 10px 0px 0px;
+}
+
+.card-picture {
+    position: fixed;
+    margin-bottom: 130px;
+    max-width: 100px;
+    border-radius: 100%;
+    border: 4px white solid;
+}
+
+.card-details {
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-details-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.card-details-heading h1{
+    margin: 0;
+    font-size: 24px;
+    color: var(--very-dark-desaturated-blue);
+}
+
+.card-details-heading p {
+    margin: 0;
+    font-size: 20px;
+    color: var(--dark-grayish-blue);
+}
+
+.card-details-individual {
+    color: var(--dark-grayish-blue);
+    margin-top: 10px;
+}
+
+.card-details-body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-top: 0.1px solid rgb(218, 218, 218);
+    padding-top: 10px;
+}
+
+.card-details-body div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0;
+    align-items: center;
+}
+
+.bold {
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--very-dark-desaturated-blue);
+}
+
+.light {
+    color: var(--dark-grayish-blue);
+}
+
+.card-details-body p {
+    margin: 6px;
+}
+
