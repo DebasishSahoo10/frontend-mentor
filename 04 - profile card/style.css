@@ -111,3 +111,26 @@ body {
     margin: 6px;
 }
 
+@media screen and (max-width:360px) {
+    .card-container {
+        width: 250px;
+    }
+
+    .card-pattern {
+        width: 100%;
+    }
+
+    .card-details-body {
+        width: 100%;
+    }
+
+    .light {
+        font-size: 12px;
+    }
+    .bold {
+        font-size: 15px;
+    }
+    .card-details-body {
+        gap: 10px;
+    }
+}
