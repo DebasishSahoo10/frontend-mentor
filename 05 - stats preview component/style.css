@@ -64,6 +64,8 @@ body {
 .stat-image img {
     max-width: 500px;
     border-radius: 0px 5px 5px 0px;
+    mix-blend-mode: screen;
+    opacity: 90%;
 }
 
 .stat-numbers {
