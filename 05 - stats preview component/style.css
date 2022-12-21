@@ -61,7 +61,9 @@ body {
     line-height: 1.8;
 }
 
-
+.stat-image{
+    background-color: var(--soft-violet);
+}
 
 .stat-image img {
     max-width: 500px;
