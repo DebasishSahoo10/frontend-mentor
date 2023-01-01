@@ -101,3 +101,42 @@ button:hover {
 #card-three button:hover {
     color: var(--very-light-gray);
 }
+
+@media screen and (max-width:895px) {
+    main {
+        flex-direction: column;
+        height: 1200px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    body {
+        overflow: visible;
+        flex-wrap: wrap;
+        padding-top: 8px;
+        padding-bottom: 10px;
+    }
+
+    .card {
+        width: 85vw;
+        height: 350px;
+        padding-top: 40px;
+        padding-left: 40px;
+    }
+
+    p {
+        margin-bottom: 25px;
+    }
+
+    button {
+        margin-bottom: 20px;
+    }
+
+    #card-one {
+        border-radius: 5px 5px 0px 00px;
+    }
+
+    #card-three {
+        border-radius: 0px 0px 5px 5px;
+    }
+}
