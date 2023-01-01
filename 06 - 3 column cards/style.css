@@ -18,7 +18,7 @@ body {
     justify-content: center;
     overflow: hidden;
     margin: 0;
-    background-color: var(--transparent-white);
+    background-color: rgb(240, 240, 240);
 }
 
 main {
