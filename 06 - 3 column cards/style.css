@@ -17,6 +17,7 @@ body {
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    margin: 0;
 }
 
 main {
@@ -72,14 +73,31 @@ button {
     padding-right: 22px;
 }
 
+button:hover {
+    background-color: transparent;
+}
+
 #card-one button {
     color: var(--bright-orange);
+}
+
+#card-one button:hover {
+    color: var(--very-light-gray);
 }
 
 #card-two button {
     color: var(--dark-cyan);
 }
 
+#card-two button:hover {
+    color: var(--very-light-gray);
+}
+
+
 #card-three button {
     color: var(--very-dark-cyan);
+}
+
+#card-three button:hover {
+    color: var(--very-light-gray);
 }
