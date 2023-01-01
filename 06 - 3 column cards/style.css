@@ -11,7 +11,7 @@
 }
 
 body {
-    height: 100vh;
+    min-height: 100vh;
     width: 100vw;
     display: flex;
     align-items: center;
@@ -59,6 +59,12 @@ p {
 }
 
 h1 {
+    color: var(--very-light-gray);
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+h2 {
+    font-size: 32px;
     color: var(--very-light-gray);
     font-family: 'Big Shoulders Display', cursive;
 }
@@ -114,7 +120,7 @@ button:hover {
     body {
         overflow: visible;
         flex-wrap: wrap;
-        padding-top: 8px;
+        padding-top: 10px;
         padding-bottom: 10px;
     }
 
