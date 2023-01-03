@@ -18,6 +18,7 @@ body {
     align-items: center;
     background-color: var(--very-dark-blue);
     overflow: hidden;
+    margin: 0;
 }
 
 main {
@@ -71,10 +72,10 @@ p {
 }
 
 #submit-btn {
+    width: 100%;
     background-color: var(--orange);
     color: var(--white);
     font-family: 'Overpass', sans-serif;
-    width: 350px;
     font-size: 15px;
     border: 0px;
     border-radius: 20px;
@@ -126,4 +127,14 @@ main img {
     padding: 5px 20px 5px 20px;
     border-radius: 20px;
     text-align: center;
+}
+
+@media screen and (max-width:440px) {
+    main {
+        max-width: 85vw;
+        padding: 20px 20px 20px 20px;
+    }
+    #message-component {
+        max-width: 85vw;
+    }
 }
